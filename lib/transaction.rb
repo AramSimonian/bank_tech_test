@@ -14,6 +14,6 @@ class Transaction
 private
 
   def abs_amount
-    amount > 0 ? amount : -amount
+    amount.abs
   end
 end
