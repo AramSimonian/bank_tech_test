@@ -9,7 +9,7 @@ class PrintDetails
     puts STATEMENT_HEADER
 
     transactions.each do |transaction|
-      puts transaction
+      puts transaction.format_for_output
     end
   end
 
